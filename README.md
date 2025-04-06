@@ -2,9 +2,9 @@
 
 This repository contains my solutions of exercises for **C++ Primer, 5th Edition** by **Stanley B. Lippman**
 
-- [ ] 1. Getting Started
-- [ ] 2. Variables and Basic Types
-- [ ] 3. Strings, Vectors, and Arrays
+- [x] 1. [Getting Started](/ch_01/)
+- [x] 2. [Variables and Basic Types](/ch_02/)
+- [x] 3. [Strings, Vectors, and Arrays](/ch_03/)
 - [ ] 4. Expressions
 - [ ] 5. Statements
 - [ ] 6. Functions

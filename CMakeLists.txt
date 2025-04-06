@@ -41,6 +41,41 @@ add_executable(cpp_primer
         #   ch_02/ex_41_3.cpp
         #   ch_02/ex_42_1.cpp
         #   ch_02/ex_42_2.cpp
-        ch_02/ex_42_3.cpp)
+        #   ch_02/ex_42_3.cpp
+        #   ch_03/ex_01.cpp
+        #   ch_03/ex_02.cpp
+        #   ch_03/ex_04.cpp
+        #   ch_03/ex_05.cpp
+        #   ch_03/ex_06.cpp
+        #   ch_03/ex_08.cpp
+        #   ch_03/ex_10.cpp
+        #   ch_03/ex_14.cpp
+        #   ch_03/ex_15.cpp
+        #   ch_03/ex_16.cpp
+        #   ch_03/ex_17.cpp
+        #   ch_03/ex_19.cpp
+        #   ch_03/ex_20.cpp
+        #   ch_03/ex_21.cpp
+        #   ch_03/ex_22.cpp
+        #   ch_03/ex_23.cpp
+        #   ch_03/ex_24.cpp
+        #   ch_03/ex_25.cpp
+        #   ch_03/ex_31.cpp
+        #   ch_03/ex_32_01.cpp
+        #   ch_03/ex_32_02.cpp
+        #   ch_03/ex_35.cpp
+        #   ch_03/ex_36_01.cpp
+        #   ch_03/ex_36_02.cpp
+        #   ch_03/ex_39_01.cpp
+        #   ch_03/ex_39_02.cpp
+        #   ch_03/ex_40.cpp
+        #   ch_03/ex_41.cpp
+        #   ch_03/ex_42.cpp
+        #   ch_03/ex_43.cpp
+        #   ch_03/ex_44.cpp
+        ch_03/ex_45.cpp
+)
+
+target_compile_options(cpp_primer PRIVATE -Wall -Wextra -pedantic -pedantic-errors)
 
 install(TARGETS cpp_primer RUNTIME DESTINATION ${CMAKE_SOURCE_DIR})
