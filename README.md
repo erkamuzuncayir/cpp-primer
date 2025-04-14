@@ -6,7 +6,7 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 2. [Variables and Basic Types](/ch_02/)
 - [x] 3. [Strings, Vectors, and Arrays](/ch_03/)
 - [x] 4. [Expressions](/ch_04/)
-- [ ] 5. Statements
+- [x] 5. [Statements](/ch_05/)
 - [ ] 6. Functions
 - [ ] 7. Classes
 - [ ] 8. The IO Library
