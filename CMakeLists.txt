@@ -98,7 +98,33 @@ add_executable(cpp_primer
         #   ch_05/ex_21.cpp
         #   ch_05/ex_23.cpp
         #   ch_05/ex_24.cpp
-        ch_05/ex_25.cpp
+        #   ch_05/ex_25.cpp
+        #   ch_06/ex_03.cpp
+        #   ch_06/ex_04.cpp
+        #   ch_06/ex_05.cpp
+        #   ch_06/ex_07.cpp
+#        ch_06/ch_06.h
+#        ch_06/ex_09/fact.cc
+#        ch_06/ex_09/factMain.cc
+#        ch_06/ex_10.cpp
+#        ch_06/ex_11.cpp
+#        ch_06/ex_12.cpp
+#        ch_06/ex_17.cpp
+#        ch_06/ex_21.cpp
+#        ch_06/ex_22.cpp
+#        ch_06/ex_23.cpp
+#        ch_06/ex_25.cpp
+#        ch_06/ex_26.cpp
+#        ch_06/ex_27.cpp
+#        ch_06/ex_30.cpp
+#        ch_06/ex_33.cpp
+#        ch_06/ex_42.cpp
+#        ch_06/ex_44.h
+#        ch_06/ex_45.h
+#        ch_06/ex_47.cpp
+#        ch_06/ex_51.cpp
+#        ch_06/ex_55.cpp
+        ch_06/ex_56.cpp
 )
 
 target_compile_options(cpp_primer PRIVATE -Wall -Wextra -pedantic -pedantic-errors)
