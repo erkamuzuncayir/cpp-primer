@@ -8,7 +8,7 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 4. [Expressions](/ch_04/)
 - [x] 5. [Statements](/ch_05/)
 - [x] 6. [Functions](/ch_06/)
-- [ ] 7. Classes
+- [x] 7. [Classes](/ch_07/)
 - [ ] 8. The IO Library
 - [ ] 9. Sequential Containers
 - [ ] 10. Generic Algorithms
