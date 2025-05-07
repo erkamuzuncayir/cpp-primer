@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.30)
 project(cpp_primer CXX)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -142,9 +142,21 @@ add_executable(cpp_primer
         # ch_07/ex_27.cpp
         # ch_07/ex_29.cpp
         # ch_07/ex_32.cpp
-        ch_07/ex_41.cpp
-        )
+        # ch_07/ex_41.cpp
+        # "ch_08/ex_01_02.cpp" 
+        # "ch_08/ex_04.cpp"
+        # "ch_08/ex_05.cpp"
+        # "ch_08/ex_06.cpp" 
+        # "ch_08/ex_07.cpp" 
+        # "ch_08/ex_08.cpp" 
+        # "ch_08/ex_09.cpp" 
+        # "ch_08/ex_10.cpp" 
+        # "ch_08/ex_11.cpp" 
+        "ch_08/ex_13.cpp")
 
-target_compile_options(cpp_primer PRIVATE -Wall -Wextra -pedantic -pedantic-errors)
+target_compile_options(cpp_primer PRIVATE 
+    $<$<CXX_COMPILER_ID:MSVC>:/W4 /permissive->
+    $<$<NOT:$<CXX_COMPILER_ID:MSVC>>:-Wall -Wextra -pedantic -pedantic-errors>
+)
 
 install(TARGETS cpp_primer RUNTIME DESTINATION ${CMAKE_SOURCE_DIR})

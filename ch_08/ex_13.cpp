@@ -1,0 +1,57 @@
+//
+// Created by erkam on 07/05/25.
+//
+
+#include <fstream>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <vector>
+using std::cin;
+using std::cout;
+using std::endl;
+using std::ifstream;
+using std::istringstream;
+using std::string;
+using std::vector;
+
+struct PersonInfo
+{
+    string         name;
+    vector<string> phones;
+};
+
+int main(int argc, char *argv[])
+{
+    string             line, word;
+    vector<PersonInfo> people;
+    istringstream      record;
+    ifstream           fin(argv[1]);
+
+    if (fin)
+    {
+        while (getline(fin, line))
+        {
+            PersonInfo info;
+            record.clear();
+            record.str(line);
+            record >> info.name;
+
+            while (record >> word)
+                info.phones.push_back(word);
+
+            people.push_back(info);
+        }
+
+        for (auto &p : people)
+        {
+            cout << p.name << ' ';
+
+            for (auto &s : p.phones)
+                cout << s << ' ';
+
+            cout << endl;
+        }
+    }
+    return 0;
+}
