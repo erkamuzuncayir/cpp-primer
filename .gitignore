@@ -34,5 +34,12 @@
 # JetBrains
 .idea
 
+# Visual Studio
+.vs
+CppProperties.json
+
 # CMake
 cmake-build-debug
+
+# Build folder
+/out
