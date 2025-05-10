@@ -10,7 +10,7 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 6. [Functions](/ch_06/)
 - [x] 7. [Classes](/ch_07/)
 - [x] 8. [The IO Library](/ch_08/)
-- [ ] 9. Sequential Containers
+- [x] 9. [Sequential Containers](/ch_09/)
 - [ ] 10. Generic Algorithms
 - [ ] 11. Associative Containers
 - [ ] 12. Dynamic Memory

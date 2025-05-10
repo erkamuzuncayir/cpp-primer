@@ -152,7 +152,32 @@ add_executable(cpp_primer
         # "ch_08/ex_09.cpp" 
         # "ch_08/ex_10.cpp" 
         # "ch_08/ex_11.cpp" 
-        "ch_08/ex_13.cpp")
+        # "ch_08/ex_13.cpp" 
+        # "ch_09/ex_04.cpp" 
+        # "ch_09/ex_05.cpp" 
+        # "ch_09/ex_11.cpp" 
+        # "ch_09/ex_13.cpp"
+        # "ch_09/ex_14.cpp"
+        # "ch_09/ex_15.cpp" 
+        # "ch_09/ex_16.cpp"  
+        # "ch_09/ex_18.cpp" 
+        # "ch_09/ex_19.cpp" 
+        # "ch_09/ex_20.cpp"  
+        # "ch_09/ex_24.cpp" 
+        # "ch_09/ex_26.cpp" 
+        # "ch_09/ex_27.cpp" 
+        # "ch_09/ex_28.cpp"  
+        # "ch_09/ex_31.cpp"    
+        # "ch_09/ex_38.cpp" 
+        # "ch_09/ex_41.cpp" 
+        # "ch_09/ex_43.cpp" 
+        # "ch_09/ex_44.cpp" 
+        # "ch_09/ex_45.cpp" 
+        # "ch_09/ex_46.cpp" 
+        # "ch_09/ex_47.cpp" 
+        # "ch_09/ex_49.cpp" 
+        # "ch_09/ex_50.cpp"  
+        "ch_09/ex_52.cpp")
 
 target_compile_options(cpp_primer PRIVATE 
     $<$<CXX_COMPILER_ID:MSVC>:/W4 /permissive->
