@@ -11,7 +11,7 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 7. [Classes](/ch_07/)
 - [x] 8. [The IO Library](/ch_08/)
 - [x] 9. [Sequential Containers](/ch_09/)
-- [ ] 10. Generic Algorithms
+- [x] 10. [Generic Algorithms](/ch_10/)
 - [ ] 11. Associative Containers
 - [ ] 12. Dynamic Memory
 - [ ] 13. Copy Control
