@@ -227,7 +227,29 @@ add_executable(cpp_primer
         # ch_11/ex_32.cpp
         # ch_11/ex_33.cpp
         # ch_11/ex_38_1.cpp
-        ch_11/ex_38_2.cpp
+        # ch_11/ex_38_2.cpp
+        # ch_12/ex_02.cpp
+        # ch_12/ex_06.cpp
+        # ch_12/ex_07.cpp
+        # ch_12/ex_14.cpp
+        # ch_12/ex_15.cpp
+        # ch_12/ex_16.cpp
+        # ch_12/ex_19.cpp
+        # ch_12/ex_19.h
+        # ch_12/ex_20.cpp
+        # ch_12/ex_22.cpp
+        # ch_12/ex_22.h
+        # ch_12/ex_23.cpp
+        # ch_12/ex_24.cpp
+        # ch_12/ex_26.cpp
+        # ch_12/ex_27.h
+        # ch_12/ex_27.cpp
+        # ch_12/ex_28.cpp
+        # ch_12/ex_29.cpp
+        # ch_12/ex_30.cpp
+        # ch_12/ex_30.h
+        # ch_12/ex_32.cpp
+        # ch_12/ex_32.h
 )
 
 target_compile_options(cpp_primer PRIVATE 
