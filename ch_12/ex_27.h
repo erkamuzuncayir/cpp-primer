@@ -16,7 +16,7 @@ class QueryResult;
 class TextQuery
 {
 public:
-    explicit TextQuery(std::ifstream &in_file) : file(in_file)
+    explicit TextQuery(std::ifstream &in_file)
     {
         get_input(in_file);
         build_map();
@@ -26,7 +26,6 @@ public:
     QueryResult query(std::string &query_word);
 
 private:
-    std::ifstream                                             &file;
     std::vector<std::string>                                   lines;
     std::map<std::string, std::shared_ptr<std::set<unsigned>>> word_line_map;
 };
