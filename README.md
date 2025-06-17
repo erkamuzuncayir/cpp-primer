@@ -14,7 +14,7 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 10. [Generic Algorithms](/ch_10/)
 - [x] 11. [Associative Containers](/ch_11/)
 - [x] 12. [Dynamic Memory](/ch_12/)
-- [ ] 13. Copy Control
+- [x] 13. [Copy Control](/ch_13/)
 - [ ] 14. Overloaded Operations and Conversions
 - [ ] 15. Object-Oriented Programming
 - [ ] 16. Templates and Generic Programming

@@ -250,6 +250,36 @@ add_executable(cpp_primer
         # ch_12/ex_30.h
         # ch_12/ex_32.cpp
         # ch_12/ex_32.h
+        # ch_13/ex_05.cpp
+        # ch_13/ex_08.cpp
+        # ch_13/ex_11.cpp
+        # ch_13/ex_13.cpp
+        # ch_13/ex_14.cpp
+        # ch_13/ex_15.cpp
+        # ch_13/ex_16.cpp
+        # ch_13/ex_18.cpp
+        # ch_13/ex_19.cpp
+        # ch_13/ex_22.cpp
+        # ch_13/ex_26.h
+        # ch_13/ex_27.cpp
+        # ch_13/ex_28.cpp
+        # ch_13/ex_30.cpp
+        # ch_13/ex_31.cpp
+        # ch_13/ex_34.cpp
+        # ch_13/ex_36.cpp
+        # ch_13/ex_36.h
+        # ch_13/ex_39_40.cpp
+        # ch_13/ex_39_40.h
+        # ch_13/ex_42.cpp
+        # ch_13/ex_42.h
+        # ch_13/ex_44.h
+        # ch_13/ex_44.cpp
+        # ch_13/ex_47_48.cpp
+        # ch_13/ex_47_48.h
+        # ch_13/ex_50.cpp
+        # ch_13/ex_50.h
+        # ch_13/ex_53.cpp
+        ch_13/ex_58.cpp
 )
 
 target_compile_options(cpp_primer PRIVATE 
