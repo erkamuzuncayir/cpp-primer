@@ -15,7 +15,7 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 11. [Associative Containers](/ch_11/)
 - [x] 12. [Dynamic Memory](/ch_12/)
 - [x] 13. [Copy Control](/ch_13/)
-- [ ] 14. Overloaded Operations and Conversions
+- [x] 14. [Overloaded Operations and Conversions](/ch_14/)
 - [ ] 15. Object-Oriented Programming
 - [ ] 16. Templates and Generic Programming
 - [ ] 17. Specialized Library Facilities

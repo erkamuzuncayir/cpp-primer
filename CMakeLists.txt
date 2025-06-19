@@ -279,7 +279,18 @@ add_executable(cpp_primer
         # ch_13/ex_50.cpp
         # ch_13/ex_50.h
         # ch_13/ex_53.cpp
-        ch_13/ex_58.cpp
+        # ch_13/ex_58.cpp
+#        ch_14/ex_05_08_12_17_19.cpp
+#        ch_14/ex_16_StrBlob_StrBlobPtr.cpp
+#        ch_14/ex_16_StrVec.cpp
+#        ch_14/ex_16_MyString.cpp
+#        ch_14/ex_02_06_09_10_11_13.cpp
+#        ch_14/ex_30.cpp
+#        ch_14/ex_34_35_36.cpp
+#        ch_14/ex_37.cpp
+#        ch_14/ex_38_39.cpp
+#        ch_14/ex_40.cpp
+        ch_14/ex_44.cpp
 )
 
 target_compile_options(cpp_primer PRIVATE 
