@@ -49,7 +49,7 @@ std::ostream &operator<<(std::ostream &os, const MyString &str)
 }
 ```
 
-## Solution 14.7
+## Solution 14.14
 
 If other way around used, one more copy of `Sales_data` will be wasted in `operator +`.
 
