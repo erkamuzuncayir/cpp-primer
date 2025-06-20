@@ -290,7 +290,14 @@ add_executable(cpp_primer
 #        ch_14/ex_37.cpp
 #        ch_14/ex_38_39.cpp
 #        ch_14/ex_40.cpp
-        ch_14/ex_44.cpp
+#        ch_14/ex_44.cpp
+#        ch_15/ex_03.cpp
+#        ch_15/ex_05.cpp
+#        ch_15/ex_Disc_quote_Bulk_quote_15_16_17.cpp
+#        ch_15/ex_20.cpp
+#        ch_15/ex_21.cpp
+#        ch_15/ex_26_27_28_29.cpp
+        ch_15/ex_30.cpp
 )
 
 target_compile_options(cpp_primer PRIVATE 
