@@ -319,7 +319,18 @@ add_executable(cpp_primer
 #        ch_16/ex_58.cpp
 #        ch_16/ex_62.cpp
 #        ch_16/ex_63_64.cpp
-        ch_16/ex_65.cpp
+#        ch_16/ex_65.cpp
+#        ch_17/ex_01_02.cpp
+#        ch_17/ex_03.cpp
+#        ch_17/ex_04.cpp
+#        ch_17/ex_10_11_12_13.cpp
+#        ch_17/ex_14_15.cpp
+#        ch_17/ex_28_29_30.cpp
+#        ch_17/ex_33.cpp
+#        ch_17/ex_34_35_36.cpp
+#        ch_17/ex_37.cpp
+#        ch_17/ex_38.cpp
+        ch_17/ex_39.cpp
 )
 
 target_compile_options(cpp_primer PRIVATE 
