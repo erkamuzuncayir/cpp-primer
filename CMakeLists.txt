@@ -330,7 +330,13 @@ add_executable(cpp_primer
 #        ch_17/ex_34_35_36.cpp
 #        ch_17/ex_37.cpp
 #        ch_17/ex_38.cpp
-        ch_17/ex_39.cpp
+#        ch_17/ex_39.cpp
+#        ch_18/ex_05.cpp
+#        ch_18/ex_06.cpp
+#        ch_18/ex_07.cpp
+#        ch_18/ex_09_10.cpp
+#        ch_18/ex_17.cpp
+        ch_18/ex_30.cpp
 )
 
 target_compile_options(cpp_primer PRIVATE 
