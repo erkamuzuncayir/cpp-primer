@@ -20,4 +20,4 @@ This repository contains my solutions of exercises for **C++ Primer, 5th Edition
 - [x] 16. [Templates and Generic Programming](/ch_16/)
 - [x] 17. [Specialized Library Facilities](/ch_17/)
 - [x] 18. [Tools for Large Programs](/ch_18/)
-- [ ] 19. Specialized Tools and Techniques
+- [x] 19. [Specialized Tools and Techniques](/ch_19/)
